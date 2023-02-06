@@ -394,3 +394,19 @@ main .main-card-container .card img {
 .get-started .get-started-container .copyright {
     font-size: 13px;
 }
+
+footer {
+    background-color:#333333 ;
+}
+.footer-container {
+    color: white;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    text-align: center;
+}
+
+.footer-container span a {
+    color: #9593e6;
+}
