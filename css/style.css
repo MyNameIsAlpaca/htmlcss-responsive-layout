@@ -301,3 +301,58 @@ main .main-card-container .card img {
     max-width: 60%;
     padding: 10px 0px;
 }
+
+.about-us {
+    padding-bottom: 70px;
+}
+
+.about-us-container .about-us-description {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.about-us-container .about-us-description h2{
+    color: #9593e6;
+    font-size: 30px;
+}
+
+.about-us-container .about-us-description h2,
+.about-us-container .about-us-description p {
+    line-height: 30px;
+}
+
+.about-us-container .about-boss {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-us-container .about-boss .boss-img {
+    position: relative;
+    max-width: 40%;
+}
+
+.about-us-container .about-boss .boss-img img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.about-us-container .about-boss .boss-img .fa-quote-left {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #9593e6;
+    font-size: 40px;
+}
+
+.about-us-container .about-boss .btn-boss {
+    max-width: 60%;
+    border-radius: 25px;
+    border: 0;
+    background-color: #9792e4;
+    padding: 5px 0;
+    color: white;
+}
