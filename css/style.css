@@ -410,3 +410,68 @@ footer {
 .footer-container span a {
     color: #9593e6;
 }
+
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    main .main-card-container {
+        flex-flow: row wrap;
+    }
+
+    main .main-card-container .card {
+        padding: 10px 10px;
+    }
+
+    main .main-card-container .card:first-child {
+        max-width: calc( 100% / 3 * 2 - 20px / 3 * 1 );
+        padding-bottom: 0px;
+    }
+
+    main .main-card-container .card:first-child img {
+        max-width: 70%;
+        align-self: flex-start;
+    }
+
+    main .main-card-container .info-card:first-child {
+        max-width: calc( 100% / 3 * 1 - 20px / 3 * 1 );
+    }
+
+    main .main-card-container .info-card {
+        max-width: calc( 100% / 3 * 1 - 20px / 3 * 2);
+    }
+
+    .testimonials .testimonials-card-container .testimonials-card {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .testimonials .testimonials-card-container .testimonials-card .testimonials-description {
+        padding-top: 40px;
+    }
+
+    .benefit .benefit-container .benefit-card-container {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 30px;
+    }
+
+    .benefit .benefit-container .benefit-card-container .benefit-card {
+        max-width: calc( 100% / 2 * 1 - 30px / 2 * 1 );
+    }
+
+    .about-us-container {
+        display: flex;
+    }
+
+    .about-us-container .about-us-description {
+        max-width: 50%;
+    }
+
+    .about-us-container .about-boss {
+        margin-top: 70px;
+        margin-left: 70px;
+    }
+
+    .about-us-container .about-boss .boss-img {
+        max-width: 60%;
+    }
+}
