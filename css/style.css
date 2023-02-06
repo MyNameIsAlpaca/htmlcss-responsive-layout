@@ -40,6 +40,10 @@ nav {
     font-size: 25px;
 }
 
+.nav-hidden {
+    display: none;
+}
+
 main {
     padding-top: 120px;
 }
@@ -474,4 +478,138 @@ footer {
     .about-us-container .about-boss .boss-img {
         max-width: 60%;
     }
+}
+
+@media screen and (min-width: 769px) {
+    .navbar .nav-link .compress {
+        display: none;
+    }
+
+    .navbar .nav-hidden {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .navbar .nav-hidden a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .navbar .nav-hidden .btn-nav {
+        padding: 7px 15px;
+        background-color: white;
+        border-radius: 25px;
+        border: 0;
+    }
+
+    main .main-card-container {
+        flex-flow: row wrap;
+    }
+
+    main .main-card-container .card {
+        padding: 10px 10px;
+    }
+
+    main .main-card-container .card:first-child {
+        max-width: calc( 100% / 3 * 2 - 20px / 3 * 1 );
+        padding-bottom: 0px;
+        flex-flow: row nowrap;
+    }
+
+    main .main-card-container .card:first-child img {
+        max-width: 40%;
+        align-self: flex-end;
+    }
+
+    main .main-card-container .info-card:first-child {
+        max-width: calc( 100% / 3 * 1 - 20px / 3 * 1 );
+    }
+
+    main .main-card-container .info-card {
+        max-width: calc( 100% / 3 * 1 - 20px / 3 * 2);
+    }
+
+    .planning .planning-container {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 70px;
+        padding-top: 80px;
+    }
+
+    .planning .planning-container .planning-inner {
+        max-width: 40%;
+    }
+
+    .planning .planning-container .last-planning {
+        max-width: 40%;
+        margin-top: 150px;
+    }
+
+    .planning .planning-container .last-planning {
+        max-height: 20%;
+        align-items: center;
+    }
+    .planning .planning-container .last-planning .last-planning-img {
+        max-width: 60%;
+    }
+
+    .testimonials .testimonials-card-container .testimonials-card {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .testimonials .testimonials-card-container .testimonials-card .testimonials-card-img {
+        max-width: 200px;
+    }
+
+    .testimonials .testimonials-card-container .testimonials-card .testimonials-description {
+        padding-top: 40px;
+    }
+
+    .benefit .benefit-container .benefit-card-container {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 30px;
+    }
+
+    .benefit .benefit-container .benefit-card-container .benefit-card {
+        max-width: calc( 100% / 3 * 1 - 30px / 3 * 2 );
+    }
+
+    .about-us-container {
+        display: flex;
+    }
+
+    .about-us-container .about-us-description {
+        max-width: 50%;
+    }
+
+    .about-us-container .about-boss {
+        margin-top: 70px;
+        margin-left: 70px;
+    }
+
+    .about-us-container .about-boss h3 {
+        max-width: 50%;
+        line-height: 120%;
+    }
+
+    .about-us-container .about-boss .boss-img {
+        max-width: 60%;
+    }
+
+    .get-started .get-started-container {
+        max-width: 20%;
+    }
+
+    .footer-container {
+        max-width: 20%;
+    }
+
+    .center-screen {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
 }
