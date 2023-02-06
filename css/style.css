@@ -24,7 +24,7 @@ body {
 nav {
     background-color: #0084fd;
     color: white;
-    width: 100%;
+    width: 100vw;
     position: fixed;
     z-index: 3;
 }
@@ -117,4 +117,72 @@ main .main-card-container .card img {
 
 .main-card-container {
     padding-bottom: 100px;
+}
+
+.planning {
+    background-color:#9593e6;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.planning .planning-container {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 70px;
+}
+
+.planning .planning-container .planning-img {
+    max-width: 100%;
+}
+
+.planning .planning-container .planning-img img {
+    max-width: 100%;
+}
+
+.planning .planning-container .info-planning {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+
+.planning .planning-container .info-planning h2 {
+    font-size: 30px;
+}
+
+
+.planning .planning-container .last-planning {
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: black;
+    text-align: center;
+    padding: 30px;
+}
+
+.planning .planning-container .last-planning h2 {
+    font-weight: bolder;
+}
+
+.planning .planning-container .last-planning p {
+    line-height: 40px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.planning .planning-container .last-planning .download {
+    border-radius: 50%;
+    border: 0;
+    background-color: #9792e4;
+    font-weight: bolder;
+    max-width: 20%;
+    padding: 3.5% 5%;
+    align-self: center;
+}
+
+.planning .planning-container .last-planning img {
+    width: 100%;
 }
