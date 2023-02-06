@@ -250,3 +250,54 @@ main .main-card-container .card img {
 .testimonials .testimonials-card-container .testimonials-card .testimonials-description div span {
     line-height: 30px;
 }
+
+.benefit {
+    background-color:#9792e4 ;
+    padding-top: 50px;
+}
+
+
+.benefit .benefit-container .benefit-title {
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 1.2em;
+}
+
+.benefit .benefit-container .benefit-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+.benefit .benefit-container .benefit-card-container .benefit-card {
+    background-color: white;
+    border-radius: 25px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.benefit .benefit-container .benefit-card-container .benefit-card h2 {
+    font-size: 40px;
+}
+
+.benefit .benefit-container .benefit-card-container .benefit-card h2, h3 {
+    color: #9593e6;
+}
+
+.benefit .benefit-container .benefit-card-container .benefit-card p {
+    color: #868686;
+    line-height: 25px;
+}
+
+.benefit .benefit-container .benefit-card-container .benefit-card .btn-benefit {
+    color: white;
+    background-color: #9593e6;
+    border-radius: 25px;
+    border: 0;
+    max-width: 60%;
+    padding: 10px 0px;
+}
