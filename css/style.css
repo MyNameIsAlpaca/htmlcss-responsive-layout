@@ -356,3 +356,41 @@ main .main-card-container .card img {
     padding: 5px 0;
     color: white;
 }
+
+.get-started {
+    background-color: #9593e6;
+    color: white;
+}
+.get-started .get-started-container {
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.get-started .get-started-container  h3 {
+    color: white;
+    font-size: 25px;
+}
+
+.get-started .get-started-container h2 {
+    color: #fdc15f;
+    font-size: 50px;
+}
+
+.get-started .get-started-container .btn-start {
+    padding: 20px 65px;
+    border: 0;
+    background-color: white;
+    color: #9593e6;
+    font-weight: bold;
+    border-radius: 25px;
+    letter-spacing: 2px;
+}
+
+.get-started .get-started-container .copyright {
+    font-size: 13px;
+}
